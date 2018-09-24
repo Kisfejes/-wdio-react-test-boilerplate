@@ -15,7 +15,7 @@ class TodoItem extends React.Component<TodoItemProps, TodoItemState> {
   public render() {
     return (
       <div className="todo-item-container">
-        <div>{this.props.item.name}</div>
+        <div className="todo-item-name">{this.props.item.name}</div>
         <button onClick={() => this.props.removeItem(this.props.index)}>
           Remove
         </button>

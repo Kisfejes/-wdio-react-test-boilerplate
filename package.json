@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/mocha": "^5.2.5",
+    "@types/webdriverio": "^4.10.4",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts-ts": "2.17.0"
+    "react-scripts-ts": "2.17.0",
+    "wdio-mocha-framework": "^0.6.3",
+    "wdio-selenium-standalone-service": "0.0.10",
+    "webdriverio": "^4.13.2"
   },
   "scripts": {
     "start": "react-scripts-ts start",
@@ -14,7 +21,6 @@
     "eject": "react-scripts-ts eject"
   },
   "devDependencies": {
-    "@types/jest": "^23.3.2",
     "@types/node": "^10.10.3",
     "@types/react": "^16.4.14",
     "@types/react-dom": "^16.0.7",
