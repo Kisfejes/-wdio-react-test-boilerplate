@@ -1,0 +1,11 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 54px;
+}
+
+.app-todo-list {
+  margin-top: 12px;
+  width: 400px;
+}
